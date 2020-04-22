@@ -7,6 +7,12 @@
        <div class="container">
          <h2>Сотрудники</h2>
            <a href="/addemployee"><div class="btn btn-primary" style="float: left">Добавить</div></a>
+           <form action="/loadFromFile" method="POST" enctype="multipart/form-data" class="form-inline">
+
+            <div class="form-group" for="file">
+                <input type="file" name="file"  class="form-control-file" ></div>
+            <input type="submit" class="btn btn-primary form-control" value="Загрузить">
+           </form>
 
         <table  class="table table-hover" id="table">
                   <tr>
